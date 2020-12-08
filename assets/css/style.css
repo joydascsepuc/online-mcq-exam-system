@@ -1,0 +1,98 @@
+*{
+	margin : 0;
+	padding: 0;
+	/*background-color: #E6E6E6;*/
+	/*background-color: red;*/
+	/*background-color: #bcc4c1;*/
+	font-family: 'Crete Round', serif;
+	font-size: 15px;
+}
+
+::selection {
+	color: red;
+	background: yellow;
+}
+
+.dropdown-menu{
+	border-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.dropdown-item{
+	margin: 0 0 0 9px !important;
+	padding: 0;
+	color: black;
+	font-weight: normal;
+	font-size: 15px;
+}
+
+.navbar-nav > li > .dropdown-menu :hover{
+	background-color: inherit;
+}
+
+.dropdown-item:hover{
+	font-weight: bold;
+}
+
+.form-control{
+	border-radius: 0;
+	padding: 0 0 0 5px;
+}
+
+input:focus{
+  border-color: none;  
+  box-shadow:  none;
+  border: 1px solid none;
+  outline:none;
+}
+
+.form-control:focus{
+  border-color: none;  
+  box-shadow:  none;
+  border: 1px solid none;
+  outline:none;
+}
+
+input.form-control{
+   height:30px !important;
+   border-color: black;
+}
+
+textarea.form-control{
+	border-color: black;
+}
+
+select.form-control{
+	height:30px !important;
+    border-color: black;
+}
+
+/*.navbar-nav > li > .dropdown-menu :hover{
+	
+	background-color: inherit;
+}*/
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+input[type=search]{
+	border: 2px solid rgba(98, 101, 228, 1);
+	border-radius: 5px 0;
+}
+
+.section{
+	/*height: 4.5rem;*/
+	width: 100%;
+}
+
+.section .fa, .fas {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    /*font-size: 1.1rem;*/
+}
